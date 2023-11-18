@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import Nav from "../components/Nav.vue";
+import Nav from "../components/nav.vue";
 import Carousel from '../components/Carousel.vue';
 import Butten from '../components/Butten.vue'
 import Details from '../components/Details.vue'
