@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     Butten: typeof import('./src/components/Butten.vue')['default']
     Carousel: typeof import('./src/components/Carousel.vue')['default']
-    CustomInput: typeof import('./src/components/CustomInput.vue')['default']
     CustomInputs: typeof import('./src/components/CustomInputs.vue')['default']
     Details: typeof import('./src/components/Details.vue')['default']
     ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
@@ -24,7 +23,7 @@ declare module 'vue' {
     ElInputNumber: typeof import('element-plus/es')['ElInputNumber']
     ElOption: typeof import('element-plus/es')['ElOption']
     ElSelect: typeof import('element-plus/es')['ElSelect']
-    Nav: typeof import('./src/components/nav.vue')['default']
+    Nav: typeof import('./src/components/Nav.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     UserHead: typeof import('./src/components/UserHead.vue')['default']
