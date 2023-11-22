@@ -1,0 +1,662 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "payable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "CommodityBuying",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_NameOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_ValueOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_PhotoOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "bool[4]",
+				"name": "_TypesOfData",
+				"type": "bool[4]"
+			},
+			{
+				"internalType": "string",
+				"name": "_IntroduceOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_Linkhash",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_BondOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "CommodityListing",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_Link",
+				"type": "string"
+			}
+		],
+		"name": "Complaint",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "Compute",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "_IsDataTrue",
+				"type": "bool"
+			}
+		],
+		"name": "DaoDeciding",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "FindCustomerdata",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "FindLastestdata",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "FindLink",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "FindLinkhash",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "_NumberOfData",
+				"type": "uint256[]"
+			}
+		],
+		"name": "FindNumberOfData",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "FindNumberOfTotalData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "FindSaledata",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "Findarbitratingdata",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_Type",
+				"type": "uint256"
+			}
+		],
+		"name": "FingTypeOfData",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_CustomeraddressTOdataNumber",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_NumberOfData",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "NumberOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "NameOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ValueOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "PhotoOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "IntroduceOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "Linkhash",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsLockByDao",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsLockBySeller",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_NumberToData",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "NumberOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "NameOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ValueOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "PhotoOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "IntroduceOfData",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "Linkhash",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsLockByDao",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsLockBySeller",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_NumberToDataAttribute",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "BondOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "TotalCustomer",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "NewSubscriptOfCustomerList",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Timestamp",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "NewSubscriptOfsend",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "SelfDistroytime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "AddressOfComplaint",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_addressTOBrbitratingdataNumber",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "Map_selleraddressTOdataNumber",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "NumberOfTotalData",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "ReleaseLockmoney",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			}
+		],
+		"name": "RevokeData",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_Owner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_NumberOfData",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string[]",
+				"name": "EncodeLink",
+				"type": "string[]"
+			}
+		],
+		"name": "TransferLink",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

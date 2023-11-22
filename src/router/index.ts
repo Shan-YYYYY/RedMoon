@@ -22,6 +22,16 @@ const routes = [
         path: 'user',
         name: 'user',
         component: () => import('../page/userInfo.vue')
+      },
+      {
+        path: 'creat',
+        name: 'creat',
+        component: () => import('../page/grouding.vue')
+      },
+      {
+        path:'commidity',
+        name:'commidity',
+        component: () => import('../page/commidity.vue')
       }
     ]
   },

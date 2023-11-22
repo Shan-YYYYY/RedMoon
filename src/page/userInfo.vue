@@ -11,7 +11,7 @@
           <span><butten text='Bought'/></span>
           <span><butten text='Selling'/></span>
           <span><butten text='arbitrated'/></span>
-          <span><butten text='Create'/></span>
+          <span><router-link to="creat"><butten text='Create' /></router-link></span>
           <span><butten text='Join the DAO'/></span>
       </div>
       <div class="downPart3">

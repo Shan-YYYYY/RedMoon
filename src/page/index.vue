@@ -11,7 +11,7 @@
     <div class="downPart1">
       <span><butten text='Trending'/></span>
       <span><butten text='TOP'/></span>
-      <span><butten text='Join the DAO'/></span>
+      <span><router-link to="user">  <butten text='Join the DAO'/></router-link></span>
     </div>
     <div class="downPart2">
       <div class="detail"><Details/></div>
