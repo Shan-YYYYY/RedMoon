@@ -1,19 +1,11 @@
 <template>
-    <div class="topPart">
+    <div class="topPart1">
         <div class="components1" style="width:100%;">此处应为导航栏组件</div>
       </div>
-      <div class="midPart">
-        <span class="left">
-            此处应为上架图片预览
-        </span>
-        <span class="mid">
-            此处应为上架信息
-        </span>
-        <span class="right">
-            此处应为下载url
-        </span>
+      <div class="midPart1">
+       <CustomInputs/>
       </div>
-      <div class="downPatr">
+      <!-- <div class="downPatr1">
       <span class="d_left">
         此处应为交易价格
       </span>
@@ -23,21 +15,21 @@
       <span class="d_right">
          此处应为按钮
       </span>
-    </div>
+    </div> -->
 </template>
 
 <script setup>
-import homeCard from '../components/homeCard.vue';
+import CustomInputs from '@/components/CustomInputs.vue';
 </script>
 
-<style>
-.topPart{
+<style  >
+.topPart1{
     height: 7%;
   }
-.midPart{
-    height: 70%;
-}
-.downPart{
+.midPart1{
+    height: 50%;
+  }  
+.downPart1{
     height: 20%;
 }
 
